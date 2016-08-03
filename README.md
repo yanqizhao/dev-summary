@@ -1,3 +1,6 @@
 # dev-note
-[111](https://github.com/yanqizhao/dev-note/blob/master/August/111.md)
+
+* [8.2RunLoop闲时上传日志、Git使用](https://github.com/yanqizhao/dev-note/blob/master/August/8.2RunLoop闲时上传日志、Git使用.md)
+* [8.3Bug解决](https://github.com/yanqizhao/dev-note/blob/master/August/8.3Bug解决.md)
+
 
