@@ -1,11 +1,19 @@
 ##RunLoop
-写在前面：
+写在前面的，关于RunLoop的文章对我来说都比较深奥，没有全部看懂，只是暂时解决了我遇到的问题，下面三篇是我认为写的比较好的。
 
 [ibireme-深入理解RunLoop](http://blog.ibireme.com/2015/05/18/runloop/)
 
 [关于ibireme的笔记](http://finb.github.io/blog/2016/01/06/ios-runloop-xue-xi-and-yong-runloopshi-xian-dang-cheng-xu-kong-xian-shi-,zhi-xing-mou-xie-dai-ma/)
 
 [利用RunLoop空闲时间执行预缓存任务](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)
+
+说说我遇到的问题。
+
+之前关于RunLoop的理解仅限于是一个运行循环，可以把任务丢给它让它在空闲的时间来处理，至于为什么要在空闲的时间，怎么处理一概不知。
+
+最近新需求里要求把项目中之前上传的日志改在闲时上传，我完全没有想到是可以用RunLoop的，同事给我发了Sunny的文章后恍然大悟，虽然还不会用。
+
+关于概念性的东西多看几遍是可以达到一知半解的，
 
 
 
