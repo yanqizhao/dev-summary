@@ -6,3 +6,8 @@
 
 * [8.4Bug解决](https://github.com/yanqizhao/dev-note/blob/August/August/8.4Bug解决.md)
 
+* [8.5JSPatch初步了解](https://github.com/yanqizhao/dev-note/blob/August/August/8.5JSPatch初步了解.md)
+
+* [8.9资源载入方式](https://github.com/yanqizhao/dev-note/blob/August/August/8.9资源载入方式.md)
+
+
