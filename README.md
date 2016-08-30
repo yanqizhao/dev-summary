@@ -10,9 +10,9 @@
 
 * [8.9资源载入方式](https://github.com/yanqizhao/dev-note/blob/August/August/8.9资源载入方式.md)
 
-* [8.17JSPatch中BOOL值的使用]()
+* [8.17JSPatch中BOOL值的使用](https://github.com/yanqizhao/dev-note/blob/August/August/8.17JSPatch中BOOL值的使用.md)
 
-* [8.19管理页]()
+* [8.19管理页](https://github.com/yanqizhao/dev-note/blob/August/August/8.19管理页.md)
 
-* [8.30编码]()
+* [8.30编码](https://github.com/yanqizhao/dev-note/blob/August/August/8.30编码.md)
 
