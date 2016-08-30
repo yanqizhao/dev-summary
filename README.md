@@ -16,3 +16,5 @@
 
 * [8.30编码](https://github.com/yanqizhao/dev-note/blob/August/August/8.30编码.md)
 
+* [8月总结与9月计划](https://github.com/yanqizhao/dev-note/blob/August/August/8月总结与9月计划.md)
+
