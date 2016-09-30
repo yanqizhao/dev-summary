@@ -18,4 +18,5 @@
 
 [9.22获取生产环境远程推送设备的DeviceToken](https://github.com/yanqizhao/dev-note/blob/September/September/9.22获取生产环境远程推送设备的DeviceToken.md)
 
+[9.30OTA下载与iOS10部署](https://github.com/yanqizhao/dev-note/blob/September/September/9.30OTA下载与iOS10部署.md)
 
