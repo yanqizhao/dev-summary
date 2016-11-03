@@ -7,4 +7,5 @@
 
 [代码规范及CodeReview要点](http://www.jianshu.com/p/e65d83405914)
 
+[codereview checklist](http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/)
 
