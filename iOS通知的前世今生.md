@@ -2,8 +2,6 @@
 
 在项目决定添加iOS10新增通知的API后我开始总结了下面的内容，没想到一写就是一个多月，从最开始只是改了几个方法到后来基本搞明白不同系统的通知是如何演变而来的，时间虽长，总算没有辜负。
 
-如果你对之前系统的通知了如指掌，那么只需了解新增的内容即可，我学习喜欢先看到一个技术能做什么然后才想知道怎么做，所以对于各大技术博客的内容感到很苦恼，要么就是只告诉我能做什么而不说怎么做，要么就是一步一步教你如何做却不先把成果说清楚，好心塞。
-
 ## 本地推送
 
 ### 申请
@@ -118,8 +116,6 @@ UILocalNotification *localNotification = [launchOptions valueForKeyPath:UIApplic
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler;
 ```
 
-如果该方法未实现`// TODO`
-
 #### iOS 10以下
 
 ##### 后台
@@ -140,16 +136,6 @@ UILocalNotification *localNotification = [launchOptions valueForKeyPath:UIApplic
         // TODO
     }
 ```
-
-##### 前台
-
-`// TODO`
-
-### 更新
-
-`// TODO`
-
-#### iOS 10
 
 ### 撤销
 
@@ -194,10 +180,6 @@ This method may be faster than using scheduleLocalNotification: when scheduling 
 ```
 
 ## 远程推送
-
-### 原理
-
-`TODO`
 
 ### 申请和注册
 
@@ -273,7 +255,6 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
     NSLog(@"%@", notification);
 }
 ```
-如果该方法未实现`// TODO`
 
 #### iOS10以下
 
@@ -282,14 +263,6 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 ```
 - (void)application:(UIApplication*)application didReceiveRemoteNotification:(NSDictionary *)userInfo; 
 ```
-
-### 更新
-
-`// TODO`
-
-### 撤销
-
-`// TODO`
 
 ## 新增功能及特性
 
