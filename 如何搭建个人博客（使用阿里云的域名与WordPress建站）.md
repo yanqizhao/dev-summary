@@ -47,5 +47,10 @@
 
 以后再需要进行各种配置请访问这里`http://你的域名/wp-login.php`
 
+最后，这里是我参考过的几篇文章。
+
+[5分钟 搭建免费个人博客](http://www.jianshu.com/p/4eaddcbe4d12)
+[手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/)
+[WordPress个人建站之路](http://www.jianshu.com/p/ffcd53b99055)
 
 
