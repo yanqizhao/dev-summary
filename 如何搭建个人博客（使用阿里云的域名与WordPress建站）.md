@@ -20,7 +20,7 @@
 
 也就是说，当你想要通过手机来确定号码时，你需要主机绑定域名，而想要通过号码确定所使用的手机时，则需要域名解析。
 
-[弹性Web托管如何绑定域名](https://help.aliyun.com/knowledge_detail/39881.html)
+[弹性Web托管如何绑定域名](https://help.aliyun.com/knowledge_detail/39881.html)  
 [弹性Web托管如何解析域名](https://help.aliyun.com/knowledge_detail/39903.html)
 
 到此，在浏览器地址栏输入你的域名就可以成功访问了。
@@ -49,8 +49,8 @@
 
 最后，这里是我参考过的几篇文章。
 
-[5分钟 搭建免费个人博客](http://www.jianshu.com/p/4eaddcbe4d12)
-[手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/)
-[WordPress个人建站之路](http://www.jianshu.com/p/ffcd53b99055)
+[5分钟 搭建免费个人博客](http://www.jianshu.com/p/4eaddcbe4d12)  
+[手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/)  
+[WordPress个人建站之路](http://www.jianshu.com/p/ffcd53b99055)  
 
 
