@@ -5,12 +5,15 @@
 今天看了一天Carthage，由于项目编译实在太慢，对Carthage抱有深深的怨恨，不过看在它鼓吹的各种特性的份上，还是来说说它的优缺点吧。
 
 首先是github简介：
-[Github readme](https://github.com/Carthage/Carthage)
+[Github readme](https://github.com/Carthage/Carthage)  
 [readme翻译——Carthage：去中心化的Cocoa依赖管理器](http://www.cocoachina.com/ios/20141204/10528.html)
 
 还有raywenderlich上的文章和翻译：
-[Carthage Tutorial: Getting Started](https://www.raywenderlich.com/109330/carthage-tutorial-getting-started)
+[Carthage Tutorial: Getting Started](https://www.raywenderlich.com/109330/carthage-tutorial-getting-started)  
 [Carthage的安装和使用](http://www.jianshu.com/p/a734be794019)
+
+Other：
+[Carthage 包管理工具，另一种敏捷轻快的 iOS & MAC 开发体验](https://swiftcafe.io/2015/10/25/swift-daily-carthage-package/)
 
 ### Carthage与CocoaPods的区别
 
@@ -20,15 +23,12 @@
 2. CocoaPods默认会自动创建并更新你的应用程序和所有依赖的Xcode workspace。
 3. CocoaPods项目同时还必须包含一个podspec文件，里面是项目的一些元数据，以及确定项目的编译方式。
 
-
 #### Carthage特点
 
 1. Carthage编译你的依赖，并提供框架的二进制文件，但你仍然保留对项目的结构和设置的完整控制。Carthage不会自动的修改你的项目文件或编译设置。
 2. Carthage使用xcodebuild来编译框架的二进制文件，但如何集成它们将交由用户自己判断。CocoaPods的方法更易于使用，但Carthage更灵活并且是非侵入性的。
 3. Carthage创建的是去中心化的依赖管理器。它没有总项目的列表，这能够减少维护工作并且避免任何中心化带来的问题（如中央服务器宕机）。不过，这样也有一些缺点，就是项目的发现将更困难，用户将依赖于Github的趋势页面或者类似的代码库来寻找项目。
 4. 最后，我们创建Carthage的原因是想要一种尽可能简单的工具——一个只关心本职工作的依赖管理器，而不是取代部分Xcode的功能，或者需要让框架作者做一些额外的工作。
-
-> 插播一句，文章中有一句话`your hard work would be gone in the twinkling of an eye`，用老妈的话说就是`闪眼不见`。
 
 ### Carthage使用注意事项
 
@@ -45,10 +45,10 @@
 
 #### 参数
 
---cache-builds
---use-submodules
---no-skip-current
---no-use-binaries
+--cache-builds  
+--use-submodules  
+--no-skip-current  
+--no-use-binaries  
 
 
 
