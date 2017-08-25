@@ -2,13 +2,11 @@
 
 [TOC]
 
-今天看了一天Carthage，由于项目编译实在太慢，对Carthage抱有深深的怨恨，不过看在它鼓吹的各种特性的份上，还是来说说它的优缺点吧。
-
-首先是github简介：
+github简介：
 [Github readme](https://github.com/Carthage/Carthage)  
 [readme翻译——Carthage：去中心化的Cocoa依赖管理器](http://www.cocoachina.com/ios/20141204/10528.html)
 
-还有raywenderlich上的文章和翻译：
+raywenderlich上的文章和翻译：
 [Carthage Tutorial: Getting Started](https://www.raywenderlich.com/109330/carthage-tutorial-getting-started)  
 [Carthage的安装和使用](http://www.jianshu.com/p/a734be794019)
 
