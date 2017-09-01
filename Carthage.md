@@ -43,11 +43,16 @@ Other：
 
 #### 参数
 
---cache-builds  
+--cache-builds 使用可用缓存编译 
 --use-submodules  
---no-skip-current  
---no-use-binaries  
 
+--no-skip-current
+分享你的 Xcode schemes
+Carthage 只构建从 .xcodeproj 分享出来的 Xcode schemes。可以通过运行 carthage build --no-skip-current 来检测所有的 intended schemes 是否构建成功，然后检查 Carthage/Build 文件夹。
+如果运行命令的时候，一个重要的 scheme 没有构建成功，打开 Xcode 确保 scheme is marked as “Shared” ，这样 Carthage 可以发现它。
+
+--no-use-binaries  
+--verbose 显示运行信息
 
 
 
