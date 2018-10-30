@@ -17,6 +17,9 @@
 * git checkout \<分支名\> 检出分支
 * git checkout -b \<分支名\> 创建并检出分支
 * git checkout --track origin/\<branch name\> 检出分支并关联远程分支
+* git checkout -B 分支不存在就创建，存在就重置
+* 
+  
 
 ### git add
 
